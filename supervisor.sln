@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "supervisor", "supervisor.csproj", "{2B76CDFE-5034-4E8D-9192-9F4407E4B84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supervisor.Tests", "Tests\Supervisor.Tests\Supervisor.Tests.csproj", "{918BFE74-5BBD-416F-820C-E906FC4CD915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B76CDFE-5034-4E8D-9192-9F4407E4B84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B76CDFE-5034-4E8D-9192-9F4407E4B84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B76CDFE-5034-4E8D-9192-9F4407E4B84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B76CDFE-5034-4E8D-9192-9F4407E4B84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918BFE74-5BBD-416F-820C-E906FC4CD915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918BFE74-5BBD-416F-820C-E906FC4CD915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918BFE74-5BBD-416F-820C-E906FC4CD915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918BFE74-5BBD-416F-820C-E906FC4CD915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEB7EDE8-F568-4BA1-9BF4-DD303FBB96E1}
+	EndGlobalSection
+EndGlobal
