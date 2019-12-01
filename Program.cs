@@ -80,9 +80,7 @@ namespace Supervisor {
         }
 
         private void DoMonitor() {
-            Console.WriteLine("DoMonitor");
             Process = Process.Start(Args.ExeName, Args.Arguments);
-            Console.WriteLine("DoMonitor1");
             while (true) {
                 if (Process.WaitForExit(1000) && !IsCancelled) {
                     Process = Process.Start(Args.ExeName, Args.Arguments);
