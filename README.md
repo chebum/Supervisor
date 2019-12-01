@@ -1,5 +1,5 @@
 # Supervisor
-Simple process supervisor for Windows.
+Simple process supervisor for Windows. Download built app here: [https://github.com/chebum/Supervisor/releases/tag/1.0](https://github.com/chebum/Supervisor/releases/tag/1.0)
 
 ## Usage examples
 Start and monitor one app:
