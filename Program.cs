@@ -50,10 +50,17 @@ namespace Supervisor {
                     });
                 } else {
                     var spaceIndex = arg.IndexOf(' ');
-                    res.Add(new ProgramArgs {
-                        ExeName = arg.Substring(0, spaceIndex),
-                        Arguments = arg.Substring(spaceIndex + 1)
-                    });
+                    if (spaceIndex < 0) {
+                        res.Add(new ProgramArgs {
+                            ExeName = arg,
+                            Arguments = ""
+                        });
+                    } else {
+                        res.Add(new ProgramArgs {
+                            ExeName = arg.Substring(0, spaceIndex),
+                            Arguments = arg.Substring(spaceIndex + 1).Trim()
+                        });
+                    }
                 }
             }
             return res;
